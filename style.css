@@ -1,1 +1,10 @@
-
+:root 
+{ 
+  --background: #f5f6f8; 
+  --banner: #1f2937; 
+  --banner-text: #ffffff; 
+  --content: #ffffff; 
+  --border: #d1d5db; 
+  --iframe-border: #111827; 
+}
+* { box-sizing: border-box; } html, body { margin: 0; padding: 0; min-height: 100%; } body { background: var(--background); color: #1f2937; font-family: Arial, sans-serif; } /* ---------- Banner ---------- */ .banner { width: 100%; padding: 24px 32px; background: var(--banner); color: var(--banner-text); border-bottom: 1px solid var(--border); } .banner h1 { margin: 0; font-size: 2rem; } /* ---------- Main content ---------- */ .content { width: 100%; max-width: 1400px; margin: 32px auto; padding: 24px; background: var(--content); border: 1px solid var(--border); border-radius: 8px; } /* ---------- Iframe ---------- */ iframe { display: block; width: 100%; min-width: 400px; height: 100%; aspect-ratio: 16 / 9; border: 2px solid var(--iframe-border); border-radius: 6px; background: white; }

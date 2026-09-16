@@ -36,6 +36,8 @@ header {
 }
 
 h1 {
+    font-family: "JetBrains Mono", monospace;
+    
     margin: 0;
     padding: 20px 40px;
 
